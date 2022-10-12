@@ -1,8 +1,8 @@
 html {
-    font-size: 62.5%;
+    font-size: 90%;
 }
 body {
-    background-color: #f5f3f3
+    background-color: #e9e8e8
 }
 h1 {
     text-align: center;
@@ -16,7 +16,7 @@ h4 {
 }
 header {
     padding: 20px 0 0 0;
-    background: white;
+    background: #e9e8e8;
     text-align: center;
 }
 @media (min-width: 750px) {
@@ -65,45 +65,18 @@ ul {
 }
 .vacio {
     padding: 10px;
-    background-color: crimson;
+    background-color: rgb(230, 122, 144);
     text-align: center;
     border-radius: 10px;
     color: white;
 }
-.contenido-hero {
-    margin-top: 80px;
-    color: white;
-}
-.contenido-hero form {
-    position: relative;
-    margin-bottom: 0;
-}
-.contenido-hero form #buscador {
-    height: 50px;
-    margin-bottom: 0;
-}
-.contenido-hero form .submit-buscador {
-    position: absolute;
-    right:0;
-    top:0;
-    height: 100%;
-    padding: 0;
-    display: block;
-    text-indent: -9999px;
-    width: 50px;
-    background-image: url(../img/lupa.png);
-    background-position: right center;
-    background-repeat: no-repeat;
-    border:none;
-}
-
 
 .barra {
     padding: 20px 0;
     background: #741d51;
-    background: -moz-linear-gradient(left, #741d51 0%, #e44e52 100%); 
-    background: -webkit-linear-gradient(left, #741d51 0%,#e44e52 100%); 
-    background: linear-gradient(to right, #741d51 0%,#e44e52 100%); 
+    background: -moz-linear-gradient(left, #3b7ecb 0%, #0d0b36 100%); 
+    background: -webkit-linear-gradient(left, #3b7ecb 0%,#0d0b36 100%); 
+    background: linear-gradient(to right, #3b7ecb 0%,#0d0b36 100%); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); 
 }
 
@@ -169,13 +142,14 @@ ul {
     font-size: 22px;
 }
 
-
 .footer {
+    
     margin-top: 40px;
     border-top:1px solid #aaa;;
     padding-top: 40px;   
 }
 .footer .menu a{
+    
 display: block;
 margin-bottom: 10px;
 text-decoration: none;

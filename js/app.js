@@ -57,7 +57,6 @@ function leerDatosCurso(curso) {
           articulosCarrito = [...articulosCarrito, infoCurso];
      }
 
-     
      carritoHTML();
 }
 
@@ -74,7 +73,6 @@ function eliminarCurso(e) {
           carritoHTML();
      }
 }
-
 
 // Mostrar el curso elegido en el carrito
 function carritoHTML() {
